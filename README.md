@@ -1,7 +1,6 @@
 # Community DApp
 
-![Image of DApp]
-(https://www.dropbox.com/s/lbsj0zpjxyaesy1/Screen%20Shot%202020-11-24%20at%207.21.31%20PM.png?raw=1)
+<img alt="Image of DApp" src="https://www.dropbox.com/s/lbsj0zpjxyaesy1/Screen%20Shot%202020-11-24%20at%207.21.31%20PM.png?raw=1">
 
 ## truffle
 Within the truffle folder you will see: 
