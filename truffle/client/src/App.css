@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.noaccess {
+  text-Align: center;
+  font-weight: bold;
+}
+
+.connected {
+  color: red;
+  font-size: 12px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+
+.card {
+  border: solid 1px #000;
+  box-shadow: 3px 5px #615b5b;
+  padding: 25px 40px;
+  margin: 20px;
+}
+.card:hover {
+  background-color: #ededed;
+}
+
+.card-title {
+  margin-top: 0;
+  font-size: 24px;
+  color: blue;
+}
+
+.vote-but {
+  border: solid 1px gray;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.voted-but {
+  border: solid 1px red;
+  background-color: orange;
+  color: black;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.admin-area {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.admin-area .candidates {
+  width: 100%;
+  padding: 5px;
+}
+
+.admin-area .candidates th {
+  text-transform: uppercase;
+}
+.admin-area .candidates td {
+  margin: 0;
+  padding: 5px;
+}
+.admin-area .candidates tr:nth-child(even) {
+  background-color: #ededed;
+}
+
+.admin-area .candidates tr:first-child {
+  background-color: #fff;
+}
+
+.admin-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.admin-area .form {
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: gray;
+  padding: 5px;
+}
