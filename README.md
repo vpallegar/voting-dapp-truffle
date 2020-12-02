@@ -13,6 +13,12 @@ Within the truffle folder you will see:
 
 To get started with the contracts:
 
+First create a secrets.json file within your truffle folder (`truffle/secrets.json`).  Include two properties, mnemonic & projectId (you will use this information later when deploying to a testnet/mainnet):
+`{
+    "mnemonic": "occur boost hour shallow rebel quality nurse thought obey moon olive crater",
+    "projectId": "xxxxxxxxxxxxxxxxxxxx"
+}`
+
 1. Run `truffle compile` to ensure your contracts properly compile.
 2. Run `truffle test` to ensure your unit tests pass.
 3. Start your ganache gui or ganache cli - `ganache-cli`.
